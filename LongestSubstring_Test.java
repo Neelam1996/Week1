@@ -10,9 +10,9 @@ class LongestSubstring_Test {
 
 	@Test
 	void test() {
-		String s=null;
-		assertEquals(-1,Longest_Substring_Without_Repeat.lengthOfLongestSubstring(s) );
-		assertEquals(12,Longest_Substring_Without_Repeat.lengthOfLongestSubstring("My#name?is Neelam Sharma") );
+	String s=null;
+	assertEquals(-1,Longest_Substring_Without_Repeat.lengthOfLongestSubstring(s) );
+	assertEquals(12,Longest_Substring_Without_Repeat.lengthOfLongestSubstring("My#name?is Neelam Sharma") );
     	assertEquals(1,Longest_Substring_Without_Repeat.lengthOfLongestSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
     	assertEquals(4,Longest_Substring_Without_Repeat.lengthOfLongestSubstring("abcdcba"));
     	assertEquals(5,Longest_Substring_Without_Repeat.lengthOfLongestSubstring("pqrsqpsrt"));
