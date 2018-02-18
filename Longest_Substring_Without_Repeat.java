@@ -4,7 +4,7 @@ import org.junit.Assert;
 public class Longest_Substring_Without_Repeat {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter your String");
 		String str=s.nextLine();
@@ -13,7 +13,7 @@ public class Longest_Substring_Without_Repeat {
 	}
     public static int lengthOfLongestSubstring(String s) {
     	if(s==null) {
-    		System.out.println("You have entered a null String");
+    		
     		return -1;
     	}
 		int start = 0, curr_Len = 0, max_Len = Integer.MIN_VALUE;
